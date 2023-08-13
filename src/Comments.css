@@ -1,0 +1,102 @@
+.comment-area .single-project-slide2{
+    align-items : center;
+    padding: 0 6px;
+    margin-bottom: 100px;
+}
+.comment-area .img-cont{
+    padding: 0 20px !important;
+}
+.comment-area .img-cont img{
+    border-radius: 8px;
+}
+.comment-area .section-heading{
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+.comment-area .section-heading h6 {
+    text-transform: uppercase;
+    color: #1cc3b2;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 10px;
+}
+.comment-area .section-heading h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    display: block;
+    line-height: 1.2;
+}
+.comment-area .single-testimonial-slide{
+    padding-left: 15px;
+}
+
+.comment-area .single-testimonial-slide h5 {
+    color: #636a76;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+}
+ .comment-area.single-testimonial-slide .rating-title{
+    margin-top: 15px;
+}
+.comment-area .single-testimonial-slide .rating-title .rating{
+    margin-bottom: 10px;
+}
+.comment-area .single-testimonial-slide .rating-title h6{
+    margin-bottom: 0;
+}
+
+.comment-area .single-testimonial-slide .rating-title .rating > * {
+    color: #f5b917;
+    font-size: 14px;
+  }
+  .comment-area .owl-dots{
+    position: relative;
+    top: -40px
+  }
+  .comment-area .owl-dots .owl-dot.active span{
+    background-color: #1cc3b2 ;
+  }
+  .comment-area .owl-dots .owl-dot:hover span{
+    background-color: #1cc3b2 ;
+  }
+  .comment-area .owl-dots .owl-dot span{
+    width: 12px;
+    height: 12px;
+}
+.comment-area .single-testimonial-slide .rating-title h6 span {
+    color: #1cc3b2;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .comment-area .section-heading{
+        margin-bottom: 25px;
+    }
+    .comment-area .section-heading h2 {
+        font-size: 30px;
+    }
+    .comment-area .single-testimonial-slide h5 {
+        font-size: 16px;
+      }
+}   
+@media only screen and (max-width: 767px){
+    .comment-area .img-cont{
+        flex: 0 0 100% !important
+    }
+    .comment-area .text-cont{
+        flex: 0 0 100% !important   
+    }
+    .comment-area .section-heading h2 {
+        font-size: 24px;
+    }
+    .comment-area .single-testimonial-slide h5 {
+        font-size: 16px;
+    }
+    .comment-area .section-heading{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
